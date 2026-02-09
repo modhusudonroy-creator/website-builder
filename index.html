@@ -23,40 +23,57 @@
   </header>
 
   <section>
-    <div class="card">
-      <h2>এই ওয়েবসাইট কী করে?</h2>
-      <p>এই প্ল্যাটফর্মে আপনি আপনার প্রয়োজনীয় তথ্য দিলে আমরা সেই তথ্য অনুযায়ী সম্পূর্ণ ওয়েবসাইট ডিজাইন ও ডেভেলপ করে দিই। ব্যবসা, ব্যক্তিগত, শিক্ষা বা যেকোনো ধরনের ওয়েবসাইট।</p>
-    </div>
 
-    <div class="card">
-      <h2>আপনার তথ্য দিন</h2>
-<form action="https://formspree.io/f/mjgevdvo"method="POST">
+  <!-- About -->
+  <div class="card">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>আমরা বাংলাদেশভিত্তিক একটি ওয়েব ডেভেলপমেন্ট সার্ভিস।</p>
+  </div>
 
-  <label>আপনার নাম</label>
-  <input type="text" name="client_name" placeholder="আপনার নাম" required>
+  <!-- Services -->
+  <div class="card">
+    <h2>আমাদের সার্ভিস</h2>
+    <ul>
+      <li>Personal Website</li>
+      <li>Business Website</li>
+      <li>E-commerce Website</li>
+      <li>Educational Website</li>
+    </ul>
+  </div>
 
-  <label>ইমেইল</label>
-  <input type="email" name="client_email" placeholder="example@email.com" required>
+  <!-- Portfolio -->
+  <div class="card">
+    <h2>Portfolio</h2>
+    <img src="project1.jpg" style="width:100%;border-radius:12px;">
+    <img src="project2.jpg" style="width:100%;border-radius:12px;margin-top:10px;">
+  </div>
 
-  <label>ওয়েবসাইটের ধরন</label>
-  <select name="website_type">
-    <option>Personal</option>
-    <option>Business</option>
-    <option>E-commerce</option>
-    <option>Educational</option>
-  </select>
+  <!-- Testimonials -->
+  <div class="card">
+    <h2>Client Reviews</h2>
+    <p>"খুব সুন্দর কাজ"</p>
+    <strong>- Rahim</strong>
+  </div>
 
-  <label>আপনার আইডিয়া</label>
-  <textarea name="project_details" placeholder="কি ধরনের ওয়েবসাইট চান"></textarea>
+  <!-- Contact -->
+  <div class="card">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/mjgevdvo" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
 
-  <label>বাজেট</label>
-  <input type="number" name="budget" placeholder="5000">
+  <!-- Privacy -->
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p>আপনার তথ্য নিরাপদ রাখা আমাদের দায়িত্ব।</p>
+  </div>
 
-  <button type="submit">রিকোয়েস্ট পাঠান</button>
-
-</form>
-</div>
 </section>
+
 
 
 <footer>
