@@ -18,7 +18,73 @@
     button {background:#0f172a; color:#fff; font-size:16px; cursor:pointer;}
     button:hover {background:#1e293b;}
     footer {background:#0f172a; color:#fff; text-align:center; padding:15px;}
-  </style>
+    .glass-footer {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 50px 20px 30px;
+  text-align: center;
+  color: #e5e7eb;
+}
+
+.footer-content h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* premium icons */
+.premium-social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0;
+}
+
+.premium-social a {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #020617, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+  box-shadow:
+    inset 2px 2px 5px rgba(255,255,255,0.05),
+    inset -2px -2px 5px rgba(0,0,0,0.6),
+    0 8px 25px rgba(0,0,0,0.6);
+  transition: all 0.35s ease;
+}
+
+.premium-social a:hover {
+  transform: translateY(-6px) scale(1.12);
+  background: linear-gradient(145deg, #22c55e, #16a34a);
+  color: #020617;
+  box-shadow: 0 15px 35px rgba(34,197,94,0.6);
+}
+
+.footer-line {
+  display: block;
+  width: 140px;
+  height: 1px;
+  margin: 15px auto;
+  background: linear-gradient(to right, transparent, #22c55e, transparent);
+}
+
+.copyright {
+  font-size: 13px;
+  color: #94a3b8;
+}
+</style>
 </head>
 <body>
   <header>
