@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("https://raw.githubusercontent.com/modhusudonroy-creator/website-builder/d954ce9ab923c0f1be461cf5e3467801e79659e6/67f75d5990acce0915f40559_66d847a437ae92ca2984da52_6423e422c558f90d3c6d4205_GoDaddy%252520Website%252520Builder%252520Review_%252520What%252520to%252520Expect.png");
+  background-size: cover;       /* পুরো স্ক্রিনে ঢেকে যাবে */
+  background-position: center;  /* কেন্দ্রে থাকবে */
+  background-repeat: no-repeat; /* আবারাবে না */
+}
+</style>
+</head>
+<body>
+
+<h1>My Website</h1>
+<p>এই website এর background image GitHub থেকে নেওয়া।</p>
+
+</body>
+</html>
